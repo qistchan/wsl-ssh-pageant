@@ -1,12 +1,14 @@
 # wsl-ssh-pageant
+# COMMIT
 
 ## How to use with WSL
 
-1. On the Windows side run Pageant (or compatible agent such as gpg4win).
+1. On the Windows side run Pageant (or compa
+2. tible agent such as gpg4win).
 
-2. Run `wsl-ssh-pageant.exe --wsl C:\wsl-ssh-pageant\ssh-agent.sock` (or any other path) on windows in a short path (max ~100 characters total!)
+3. Run `wsl-ssh-pageant.exe --wsl C:\wsl-ssh-pageant\ssh-agent.sock` (or any other path) on windows in a short path (max ~100 characters total!)
 
-3. In WSL run the following
+4. In WSL run the following
 
 ```
 $ export SSH_AUTH_SOCK=/mnt/your/path/to/ssh-agent.sock
